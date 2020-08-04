@@ -1,0 +1,60 @@
+.link {
+    margin-right: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.vignette {
+    background-color: whitesmoke;
+    margin: 4px;
+    border: 1px solid darkgrey;
+    width: 305px;
+}
+
+.vignette-number {
+    width: 25%;
+}
+
+.vignette:hover {
+    background-color: gainsboro;
+}
+
+@media (min-width: 992px) {
+    .divNavbar {
+        display: -webkit-inline-flex;
+    }
+}
+
+
+
+.search-bar {
+    width: 30%;
+    margin-left: 66.5px;
+    padding-left: 15px;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    max-width: 1300px;
+}
+
+.icon-cart {
+    font-size: 1.8em;
+}
+
+.del-link {
+    font-weight: bold;
+}
+
+.del-link:hover {
+    text-decoration: underline !important;
+}
+
+.orders-article{
+    display: inline;
+}
